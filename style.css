@@ -1,0 +1,73 @@
+body{
+    background-color:goldenrod;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;   
+}
+
+
+.card_container{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 53vh ;
+    width: 280px;
+    padding: 15px;
+    align-items: center;
+}
+
+
+.card_image_container{
+    display: flex;
+    width: 280px;
+    justify-content: center;
+}
+.card_image{
+    display: flex;
+    border-radius: 20px;
+    width: 280px;
+    justify-content: center;
+}
+
+
+.card_table_container{
+    margin-top: 15px;
+    background-color: goldenrod;
+    font-size: 12px;
+    border-radius: 5px;
+    color: black;
+}
+.card_singlecell_container p{
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(63, 62, 62);
+}
+
+
+.card_link_container{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+}
+.card_link_container:hover{
+    color:gold;
+}
+.card_description p{
+    color:rgb(140, 139, 139);
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 0px;
+    line-height: 1.6;
+}
+
+
+.image img{
+    width: 25px;
+}
+
